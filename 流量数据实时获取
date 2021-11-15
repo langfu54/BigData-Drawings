@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T10:25:37.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="zEmHMI-gQqnELdcgO4yT" version="15.7.3" type="github">
-  <diagram id="TsNh4247AhXOl7paG_yA" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-11-15T10:31:18.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="sJCiviBvm0yyGP7ZZrwr" version="15.7.3" type="github" pages="2">
+  <diagram id="TsNh4247AhXOl7paG_yA" name="架构对比">
     <mxGraphModel dx="1420" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -67,6 +67,40 @@
         </mxCell>
         <mxCell id="ewVBDzP0U-T9dbjZYxc_-34" value="Clickhouse" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;strokeWidth=2;fillColor=#e1d5e7;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;" vertex="1" parent="1">
           <mxGeometry x="70" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Y5hvxkkLXyOlrPWuIPlD" name="FLINK简述">
+    <mxGraphModel dx="2247" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-0" />
+        <mxCell id="dLv25OxKsEfex5IAlNTo-1" parent="dLv25OxKsEfex5IAlNTo-0" />
+        <mxCell id="dLv25OxKsEfex5IAlNTo-2" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;span style=&quot;font-weight: bolder ; box-sizing: inherit ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;Apache Flink&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;is a framework and distributed processing engine for stateful computations over&lt;br&gt;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;unbounded&lt;/em&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;and&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;bounded&lt;/em&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;data streams.Flink has been designed to run &lt;br&gt;in&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;all common cluster environments&lt;/em&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;perform computations at&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;in-memory&lt;/em&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;speed and at&amp;nbsp;&lt;/span&gt;&lt;em style=&quot;box-sizing: inherit ; font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;any scale&lt;/em&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;.&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-1">
+          <mxGeometry x="-803" y="190" width="780" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://nightlies.apache.org/flink/flink-docs-release-1.13/flink-header-logo.svg;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-1">
+          <mxGeometry x="-770" y="10" width="291" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-6" value="Advantages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=18;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-1">
+          <mxGeometry x="-790" y="300" width="300" height="156" as="geometry">
+            <mxRectangle x="-360" y="430" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-7" value="stateful computations" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-6">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-8" value="unbounded and bounded data " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-6">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-9" value="Time " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-6">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-10" value="Window" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-6">
+          <mxGeometry y="104" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dLv25OxKsEfex5IAlNTo-11" value="Exactly Once" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=18;" vertex="1" parent="dLv25OxKsEfex5IAlNTo-6">
+          <mxGeometry y="130" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
