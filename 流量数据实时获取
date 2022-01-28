@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T10:33:12.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="v6chXo3yv0r9NhJ8oC6m" version="16.2.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-01-28T10:38:02.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="-9qZzqFhYEh6mE03jTe5" version="16.2.1" type="github" pages="5">
   <diagram id="TsNh4247AhXOl7paG_yA" name="架构对比">
     <mxGraphModel dx="1872" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,7 +174,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PT_SqzCMvrd6ZCpqwRNA" name="实时DW">
-    <mxGraphModel dx="1806" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1638" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KcFlxBqZOQjekaaYG0BG-0" />
         <mxCell id="KcFlxBqZOQjekaaYG0BG-1" parent="KcFlxBqZOQjekaaYG0BG-0" />
@@ -191,7 +191,7 @@
           <mxGeometry x="-701" y="280" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KcFlxBqZOQjekaaYG0BG-6" value="4.数据指标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KcFlxBqZOQjekaaYG0BG-1">
-          <mxGeometry x="-690" y="417" width="80" height="30" as="geometry" />
+          <mxGeometry x="-690" y="429" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KcFlxBqZOQjekaaYG0BG-7" value="5.发布上线" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KcFlxBqZOQjekaaYG0BG-1">
           <mxGeometry x="-691" y="592" width="80" height="30" as="geometry" />
@@ -213,8 +213,11 @@
             <mxPoint x="-315" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nWLtNGUGLzVCAPZfMvYE-5" value="检查点/HA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KcFlxBqZOQjekaaYG0BG-1">
-          <mxGeometry x="-470" y="290" width="70" height="20" as="geometry" />
+        <mxCell id="nWLtNGUGLzVCAPZfMvYE-5" value="检查点/保存点HA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KcFlxBqZOQjekaaYG0BG-1">
+          <mxGeometry x="-490" y="290" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9cJXGrzNK4TniHV8AFkp-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="KcFlxBqZOQjekaaYG0BG-1" source="nWLtNGUGLzVCAPZfMvYE-9" target="9cJXGrzNK4TniHV8AFkp-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nWLtNGUGLzVCAPZfMvYE-9" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;任务上线后非人为造成的数据源修改&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="KcFlxBqZOQjekaaYG0BG-1">
           <mxGeometry x="-300" y="241" width="200" height="120" as="geometry" />
@@ -269,6 +272,9 @@
         </mxCell>
         <mxCell id="9cJXGrzNK4TniHV8AFkp-9" value="资源调整" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KcFlxBqZOQjekaaYG0BG-1">
           <mxGeometry x="-370" y="597" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9cJXGrzNK4TniHV8AFkp-12" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;p&gt;数据库修改&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="KcFlxBqZOQjekaaYG0BG-1">
+          <mxGeometry x="-20" y="255" width="70" height="91" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
