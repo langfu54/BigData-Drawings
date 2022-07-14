@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-14T08:57:11.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="5kwjn1qvZRjwZyfGjyxz" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-14T09:05:25.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yc_OYf7CfssE3buBf4h-" version="20.1.1" type="github">
   <diagram id="TWHKBefvN0R1XHETb57V" name="实现">
-    <mxGraphModel dx="1671" dy="2113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1671" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -440,8 +440,8 @@
             <mxPoint x="580" y="1338" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bap-exABjrLOmZxqaHPS-196" value="资源占用较少，数据库压力小，&lt;br&gt;可以将当前任务执行时间前移，其它任务资源更多&lt;br&gt;任务维护问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1488" width="330" height="60" as="geometry" />
+        <mxCell id="bap-exABjrLOmZxqaHPS-196" value="资源占用较少，数据库压力小，&lt;br&gt;可以将当前任务执行时间前移，其它任务资源更多&lt;br&gt;数据jschema变更维护等&lt;br&gt;任务维护问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1478" width="330" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
