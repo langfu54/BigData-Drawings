@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T06:58:00.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BAzINpaPjIVCSmgbV-cj" version="20.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-09T06:58:54.447Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="P3SshWBQof7abQX9ANdQ" version="20.8.4" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="1442" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -695,7 +695,7 @@
         <mxCell id="6KwhhLq_iFVBGHq_NyL6-262" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6KwhhLq_iFVBGHq_NyL6-261">
           <mxGeometry width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6KwhhLq_iFVBGHq_NyL6-263" value="payamount 支付总额" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=2" vertex="1" parent="6KwhhLq_iFVBGHq_NyL6-254">
+        <mxCell id="6KwhhLq_iFVBGHq_NyL6-263" value="payamount 支付总额" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;fontStyle=0" vertex="1" parent="6KwhhLq_iFVBGHq_NyL6-254">
           <mxGeometry y="134" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6KwhhLq_iFVBGHq_NyL6-264" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6KwhhLq_iFVBGHq_NyL6-263">
@@ -764,7 +764,7 @@
         <mxCell id="6KwhhLq_iFVBGHq_NyL6-286" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6KwhhLq_iFVBGHq_NyL6-285">
           <mxGeometry width="30" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="6KwhhLq_iFVBGHq_NyL6-287" value="paid_user_cnt int" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="6KwhhLq_iFVBGHq_NyL6-282">
+        <mxCell id="6KwhhLq_iFVBGHq_NyL6-287" value="paid_user_cnt int 支付人数" style="shape=partialRectangle;top=0;left=0;right=0;bottom=0;html=1;align=left;verticalAlign=top;fillColor=none;spacingLeft=34;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" vertex="1" parent="6KwhhLq_iFVBGHq_NyL6-282">
           <mxGeometry y="82" width="380" height="26" as="geometry" />
         </mxCell>
         <mxCell id="6KwhhLq_iFVBGHq_NyL6-288" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;html=1;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" vertex="1" connectable="0" parent="6KwhhLq_iFVBGHq_NyL6-287">
