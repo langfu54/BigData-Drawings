@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-09T07:52:37.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Irx9HMCu9y20lXHL81TM" version="20.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-09T07:54:44.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="espy0AeRqzs60MQ4J50J" version="20.8.4" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="1442" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -913,17 +913,23 @@
         <mxCell id="6KwhhLq_iFVBGHq_NyL6-341" value="1.所有类目下所有品牌排名&lt;br&gt;2.按品牌聚合后对品类排名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1920" y="1735" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6KwhhLq_iFVBGHq_NyL6-342" value="top1&amp;nbsp; &amp;nbsp;A 品牌&amp;nbsp; &amp;nbsp;X品类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2085" y="1725" width="130" height="30" as="geometry" />
+        <mxCell id="6KwhhLq_iFVBGHq_NyL6-342" value="top1&amp;nbsp; &amp;nbsp;A 品牌&amp;nbsp; &amp;nbsp;X品类&amp;nbsp; &amp;nbsp;金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="1715" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6KwhhLq_iFVBGHq_NyL6-343" value="top2&amp;nbsp; &amp;nbsp;B&amp;nbsp;品牌&amp;nbsp; &amp;nbsp;X品类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2085" y="1755" width="130" height="30" as="geometry" />
+        <mxCell id="6KwhhLq_iFVBGHq_NyL6-343" value="top2&amp;nbsp; &amp;nbsp;B&amp;nbsp;品牌&amp;nbsp; &amp;nbsp;X品类 金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2115" y="1745" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6KwhhLq_iFVBGHq_NyL6-344" value="top1&amp;nbsp; &amp;nbsp;C 品牌&amp;nbsp; &amp;nbsp;Y品类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="1800" width="130" height="30" as="geometry" />
+        <mxCell id="6KwhhLq_iFVBGHq_NyL6-344" value="top1&amp;nbsp; &amp;nbsp;C 品牌&amp;nbsp; &amp;nbsp;Y品类 金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="1790" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6KwhhLq_iFVBGHq_NyL6-345" value="top2&amp;nbsp; &amp;nbsp;D 品牌&amp;nbsp; &amp;nbsp;Y品类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2090" y="1830" width="130" height="30" as="geometry" />
+        <mxCell id="6KwhhLq_iFVBGHq_NyL6-345" value="top2&amp;nbsp; &amp;nbsp;D 品牌&amp;nbsp; &amp;nbsp;Y品类 金额" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="1820" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6KwhhLq_iFVBGHq_NyL6-347" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=1;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1940" y="1860" as="sourcePoint" />
+            <mxPoint x="2340" y="1860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
